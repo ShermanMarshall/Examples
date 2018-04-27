@@ -18,7 +18,7 @@ public class UseStringBuilder {
      StringBuffer buffer = new StringBuffer();
      long[] metrics = new long[4], //count of time taken for each scheme
            averages = new long[4]; //count of averages for each scheme
-     int arraySize = 300000,  //Base size of 3000000;
+     int arraySize = 300000,  //Base size of 300000;
          numIterations = 10; //number of times to repeat for averages
      long start = 0, stop = 0;
      
