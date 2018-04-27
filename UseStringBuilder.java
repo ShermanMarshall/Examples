@@ -65,7 +65,7 @@ public class UseStringBuilder {
           averages[metricCounter++] += stop;
           os.write(prepareOutput("Testing time for String formatting"));
           start = System.currentTimeMillis();
-          for (int x = 0; x < 3000000; x++) { //Use format string to create the alphabet
+          for (int x = 0; x < arraySize; x++) { //Use format string to create the alphabet
                String s = String.format("%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s", "a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z");
           }
           stop = System.currentTimeMillis() - start;
